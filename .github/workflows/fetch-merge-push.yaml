@@ -1,0 +1,33 @@
+name: fetch-merge-update
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - run.sh
+      - .github/workflows/**
+  schedule:
+    - cron: 10 5 * * *
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - uses: supplypike/setup-bin@v3
+        with:
+          uri: https://github.com/zhanhb/cidr-merger/releases/download/v1.1.3/cidr-merger-linux-amd64
+          name: cidr-merger
+          version: 1.1.3
+      - run: ./run.sh
+      - name: Commit files
+        run: |
+          git config --local user.email "2857309+hroost@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git commit -a -m "[auto] upd ips"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
