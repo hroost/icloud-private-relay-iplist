@@ -31,3 +31,8 @@ echo "create icloudrelayipv6 hash:net" > ipv6-ranges.ipset.txt
 for ip in $(cat ipv6-ranges.txt); do
   echo "add icloudrelayipv6 $ip" >> ipv6-ranges.ipset.txt
 done
+
+## json files
+cat ip-ranges.txt | jq -R --slurp 'split("\n") | .[:-1]' > ip-ranges.json
+cat ipv4-ranges.txt | jq -R --slurp 'split("\n") | .[:-1]' > ipv4-ranges.json
+cat ipv6-ranges.txt | jq -R --slurp 'split("\n") | .[:-1]' > ipv6-ranges.json
