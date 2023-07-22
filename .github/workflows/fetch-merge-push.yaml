@@ -25,7 +25,8 @@ jobs:
         run: |
           git config --local user.email "2857309+hroost@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git commit -a -m "[auto] upd ips"
+          git add -u
+          git diff-index --quiet HEAD || git commit -a -m "[auto] upd ips"
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
