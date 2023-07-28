@@ -1,5 +1,4 @@
 #!/bin/sh
-set -x
 
 ## build basics
 curl -sL "https://mask-api.icloud.com/egress-ip-ranges.csv" | cut -d ',' -f 1 > egress-ip-ranges.txt && \
