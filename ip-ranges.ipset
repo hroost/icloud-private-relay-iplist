@@ -1,5 +1,4 @@
 create icloudrelay hash:net
-add icloudrelay 66.66.66.66
 add icloudrelay 104.28.8.1
 add icloudrelay 104.28.8.2/31
 add icloudrelay 104.28.8.4/30
@@ -1737,8 +1736,9 @@ add icloudrelay 104.28.139.16/28
 add icloudrelay 104.28.139.32/27
 add icloudrelay 104.28.139.64/28
 add icloudrelay 104.28.139.80/29
-add icloudrelay 104.28.139.88/31
-add icloudrelay 104.28.139.90
+add icloudrelay 104.28.139.88/30
+add icloudrelay 104.28.139.92/31
+add icloudrelay 104.28.139.94
 add icloudrelay 104.28.140.1
 add icloudrelay 104.28.140.2/31
 add icloudrelay 104.28.140.4/30
@@ -33640,13 +33640,6 @@ add icloudrelay 2a02:26f7:cd05:4000::/64
 add icloudrelay 2a02:26f7:cd08:4000::/64
 add icloudrelay 2a02:26f7:cd08:c2a0::/64
 add icloudrelay 2a02:26f7:cd09:4000::/64
-add icloudrelay 2a02:26f7:cd40:4000::/64
-add icloudrelay 2a02:26f7:cd40:7400::/56
-add icloudrelay 2a02:26f7:cd40:7500::/57
-add icloudrelay 2a02:26f7:cd40:7580::/58
-add icloudrelay 2a02:26f7:cd40:75c0::/59
-add icloudrelay 2a02:26f7:cd40:75e0::/62
-add icloudrelay 2a02:26f7:cd41:4000::/64
 add icloudrelay 2a02:26f7:cd42:4000::/64
 add icloudrelay 2a02:26f7:cd42:7400::/56
 add icloudrelay 2a02:26f7:cd42:7500::/57
