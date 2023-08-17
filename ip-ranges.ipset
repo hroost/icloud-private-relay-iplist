@@ -1734,11 +1734,9 @@ add icloudrelay 104.28.139.4/30
 add icloudrelay 104.28.139.8/29
 add icloudrelay 104.28.139.16/28
 add icloudrelay 104.28.139.32/27
-add icloudrelay 104.28.139.64/28
-add icloudrelay 104.28.139.80/29
-add icloudrelay 104.28.139.88/30
-add icloudrelay 104.28.139.92/31
-add icloudrelay 104.28.139.94
+add icloudrelay 104.28.139.64/27
+add icloudrelay 104.28.139.96/31
+add icloudrelay 104.28.139.98
 add icloudrelay 104.28.140.1
 add icloudrelay 104.28.140.2/31
 add icloudrelay 104.28.140.4/30
