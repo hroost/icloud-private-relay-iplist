@@ -7603,11 +7603,6 @@ add icloudrelayipv6 2a04:4e41:17:9e::/64
 add icloudrelayipv6 2a04:4e41:18::/56
 add icloudrelayipv6 2a04:4e41:18:1000::/54
 add icloudrelayipv6 2a04:4e41:18:1400::/55
-add icloudrelayipv6 2a04:4e41:19::/58
-add icloudrelayipv6 2a04:4e41:19:40::/59
-add icloudrelayipv6 2a04:4e41:19:60::/60
-add icloudrelayipv6 2a04:4e41:19:70::/61
-add icloudrelayipv6 2a04:4e41:19:1000::/56
 add icloudrelayipv6 2a04:4e41:1a::/58
 add icloudrelayipv6 2a04:4e41:1a:40::/62
 add icloudrelayipv6 2a04:4e41:1a:44::/63
