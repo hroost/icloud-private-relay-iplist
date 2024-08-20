@@ -1753,8 +1753,8 @@ add icloudrelay 104.28.142.16/28
 add icloudrelay 104.28.142.32/27
 add icloudrelay 104.28.142.64/26
 add icloudrelay 104.28.142.128/28
-add icloudrelay 104.28.142.144/30
-add icloudrelay 104.28.142.148/31
+add icloudrelay 104.28.142.144/29
+add icloudrelay 104.28.142.152/30
 add icloudrelay 104.28.143.28/30
 add icloudrelay 104.28.143.32/30
 add icloudrelay 104.28.143.36/31
