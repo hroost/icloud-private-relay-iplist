@@ -10322,6 +10322,13 @@ add icloudrelayipv6 2a04:4e41:6c06:8000::/50
 add icloudrelayipv6 2a04:4e41:6c06:c000::/51
 add icloudrelayipv6 2a04:4e41:6c06:e000::/52
 add icloudrelayipv6 2a04:4e41:6d00::/40
+add icloudrelayipv6 2a04:4e41:6e00::/46
+add icloudrelayipv6 2a04:4e41:6e04::/47
+add icloudrelayipv6 2a04:4e41:6e06::/48
+add icloudrelayipv6 2a04:4e41:6e07::/50
+add icloudrelayipv6 2a04:4e41:6e07:4000::/52
+add icloudrelayipv6 2a04:4e41:6e08::/45
+add icloudrelayipv6 2a04:4e41:6f00::/40
 add icloudrelayipv6 2a09:bac2::/35
 add icloudrelayipv6 2a09:bac2:2000::/38
 add icloudrelayipv6 2a09:bac2:2400::/39
