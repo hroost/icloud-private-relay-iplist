@@ -28,6 +28,7 @@ The repository is organized as follows:
     - **ipv6-ranges.ipset**: IP address list in `ipset` format containing only IPv6 addresses.
     - **ipv6-ranges.json**: IP address list in JSON format containing only IPv6 addresses.
     - **ipv6-ranges.txt**: IP address list in plain text format containing only IPv6 addresses.
+- **geo_country**: Subdirectory containing segmented geolocalized information by country with the same content scheme that the full list
 
 ## How to Use
 
