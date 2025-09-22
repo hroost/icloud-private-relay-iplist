@@ -9463,11 +9463,14 @@ add icloudrelayipv6 2a04:4e41:14:50::/63
 add icloudrelayipv6 2a04:4e41:14:1000::/52
 add icloudrelayipv6 2a04:4e41:14:2000::/52
 add icloudrelayipv6 2a04:4e41:14:3000::/53
-add icloudrelayipv6 2a04:4e41:1b::/59
+add icloudrelayipv6 2a04:4e41:1b:1::/64
+add icloudrelayipv6 2a04:4e41:1b:2::/63
+add icloudrelayipv6 2a04:4e41:1b:4::/62
+add icloudrelayipv6 2a04:4e41:1b:8::/61
+add icloudrelayipv6 2a04:4e41:1b:10::/60
 add icloudrelayipv6 2a04:4e41:1b:20::/61
 add icloudrelayipv6 2a04:4e41:1b:28::/62
 add icloudrelayipv6 2a04:4e41:1b:1000::/56
-add icloudrelayipv6 2a04:4e41:1b:2000::/52
 add icloudrelayipv6 2a04:4e41:3b::/59
 add icloudrelayipv6 2a04:4e41:3b:20::/63
 add icloudrelayipv6 2a04:4e41:3b:22::/64
