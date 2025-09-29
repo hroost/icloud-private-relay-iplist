@@ -1723,7 +1723,9 @@ add icloudrelay 104.28.138.16/28
 add icloudrelay 104.28.138.32/27
 add icloudrelay 104.28.138.64/27
 add icloudrelay 104.28.138.96/28
-add icloudrelay 104.28.138.112/31
+add icloudrelay 104.28.138.112/29
+add icloudrelay 104.28.138.120/31
+add icloudrelay 104.28.138.122
 add icloudrelay 104.28.139.1
 add icloudrelay 104.28.139.2/31
 add icloudrelay 104.28.139.4/30
@@ -1972,6 +1974,11 @@ add icloudrelay 146.75.130.0/28
 add icloudrelay 146.75.130.16/29
 add icloudrelay 146.75.130.24/30
 add icloudrelay 146.75.130.28/31
+add icloudrelay 146.75.132.0/25
+add icloudrelay 146.75.132.128/27
+add icloudrelay 146.75.132.160/28
+add icloudrelay 146.75.132.176/30
+add icloudrelay 146.75.132.180/31
 add icloudrelay 146.75.134.0/23
 add icloudrelay 146.75.136.0/24
 add icloudrelay 146.75.137.0/29
@@ -13307,6 +13314,17 @@ add icloudrelay 2a04:4e41:7420::/45
 add icloudrelay 2a04:4e41:7428::/48
 add icloudrelay 2a04:4e41:7480::/41
 add icloudrelay 2a04:4e41:7500::/40
+add icloudrelay 2a04:4e41:7600::/47
+add icloudrelay 2a04:4e41:7602::/49
+add icloudrelay 2a04:4e41:7602:8000::/51
+add icloudrelay 2a04:4e41:7603::/48
+add icloudrelay 2a04:4e41:7604::/46
+add icloudrelay 2a04:4e41:7608::/45
+add icloudrelay 2a04:4e41:7610::/44
+add icloudrelay 2a04:4e41:7620::/44
+add icloudrelay 2a04:4e41:7630::/47
+add icloudrelay 2a04:4e41:7680::/41
+add icloudrelay 2a04:4e41:7700::/41
 add icloudrelay 2a09:bac2::/35
 add icloudrelay 2a09:bac2:2000::/38
 add icloudrelay 2a09:bac2:2400::/39
@@ -13347,7 +13365,7 @@ add icloudrelay 2a09:bac2:c000::/36
 add icloudrelay 2a09:bac2:d000::/38
 add icloudrelay 2a09:bac2:d400::/40
 add icloudrelay 2a09:bac2:d500::/42
-add icloudrelay 2a09:bac2:d540::/45
+add icloudrelay 2a09:bac2:d540::/44
 add icloudrelay 2a09:bac3::/35
 add icloudrelay 2a09:bac3:2000::/38
 add icloudrelay 2a09:bac3:2400::/39
@@ -13388,4 +13406,4 @@ add icloudrelay 2a09:bac3:c000::/36
 add icloudrelay 2a09:bac3:d000::/38
 add icloudrelay 2a09:bac3:d400::/40
 add icloudrelay 2a09:bac3:d500::/42
-add icloudrelay 2a09:bac3:d540::/45
+add icloudrelay 2a09:bac3:d540::/44
