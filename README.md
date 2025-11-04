@@ -41,6 +41,10 @@ You can use any of the provided IP address lists based on your network infrastru
 
 This repository is automatically updated at regular intervals to ensure the IP address lists remain up-to-date with the latest iCloud Private Relay egress IP addresses. The update process involves querying official sources and automated validation to provide accurate and reliable information.
 
+## Dependencies
+
+[CIDR Merger](https://github.com/zhanhb/cidr-merger) - simplifies work with CIRDs.
+
 ## Contributing
 
 Contributions to this project are welcome! If you have suggestions, improvements, or updates to the iCloud Private Relay egress IP address list, feel free to open an issue or submit a pull request.
