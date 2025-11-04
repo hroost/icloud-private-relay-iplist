@@ -12,23 +12,25 @@ jobs:
   main:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v5
         with:
           fetch-depth: 0
-      - uses: supplypike/setup-bin@v3
+      - uses: supplypike/setup-bin@v5
         with:
           uri: https://github.com/zhanhb/cidr-merger/releases/download/v1.1.3/cidr-merger-linux-amd64
           name: cidr-merger
           version: 1.1.3
       - run: ./tools/run.sh
       - name: Commit files
+        if: github.ref == 'refs/heads/main'
         run: |
           git config --local user.email "2857309+hroost@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add -u
           git diff-index --quiet HEAD || git commit -a -m "[auto] upd ips"
       - name: Push changes
-        uses: ad-m/github-push-action@master
+        if: github.ref == 'refs/heads/main'
+        uses: ad-m/github-push-action@v1.0.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: main
