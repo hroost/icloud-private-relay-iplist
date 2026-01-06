@@ -10069,8 +10069,7 @@ add icloudrelayipv6 2a09:bac2:c000::/36
 add icloudrelayipv6 2a09:bac2:d000::/38
 add icloudrelayipv6 2a09:bac2:d400::/40
 add icloudrelayipv6 2a09:bac2:d500::/42
-add icloudrelayipv6 2a09:bac2:d540::/44
-add icloudrelayipv6 2a09:bac2:d550::/45
+add icloudrelayipv6 2a09:bac2:d540::/43
 add icloudrelayipv6 2a09:bac3::/35
 add icloudrelayipv6 2a09:bac3:2000::/38
 add icloudrelayipv6 2a09:bac3:2400::/39
@@ -10111,5 +10110,4 @@ add icloudrelayipv6 2a09:bac3:c000::/36
 add icloudrelayipv6 2a09:bac3:d000::/38
 add icloudrelayipv6 2a09:bac3:d400::/40
 add icloudrelayipv6 2a09:bac3:d500::/42
-add icloudrelayipv6 2a09:bac3:d540::/44
-add icloudrelayipv6 2a09:bac3:d550::/45
+add icloudrelayipv6 2a09:bac3:d540::/43
