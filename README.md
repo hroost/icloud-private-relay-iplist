@@ -2,7 +2,7 @@
 
 ![iCloud Private Relay](https://support.apple.com/library/content/dam/edam/applecare/images/en_US/icloud/icloud-private-relay-how-private-relay-works-path-through-relays.png)
 
-This project provides a comprehensive list of auto-generated iCloud Private Relay egress IP addresses in various formats (iptables ipset, JSON, and TXT) for easy integration into your network infrastructure.
+This project provides a comprehensive list of auto-generated iCloud Private Relay egress IP addresses in various formats (`ipset`, JSON, JSONL, CSV, and TXT) for easy integration into your network infrastructure.
 
 ## What is iCloud Private Relay?
 
@@ -17,16 +17,22 @@ This repository aims to provide an up-to-date and automatically generated (from 
 The repository is organized as follows:
 
 
+- **ip-ranges.csv**: IP address list in CSV format containing both IPv4 and IPv6 addresses with `cidr` and `ip_version` columns.
 - **ip-ranges.ipset**: IP address list in `ipset` format containing both IPv4 and IPv6 addresses.
 - **ip-ranges.json**: IP address list in JSON format containing both IPv4 and IPv6 addresses.
+- **ip-ranges.jsonl**: IP address list in newline-delimited JSON format containing both IPv4 and IPv6 addresses with `cidr` and `ip_version` fields.
 - **ip-ranges.txt**: IP address list in plain text format containing both IPv4 and IPv6 addresses.
 - **ipv4**: Subdirectory containing IPv4-specific IP address lists.
+    - **ipv4-ranges.csv**: IP address list in CSV format containing only IPv4 addresses with `cidr` and `ip_version` columns.
     - **ipv4-ranges.ipset**: IP address list in `ipset` format containing only IPv4 addresses.
     - **ipv4-ranges.json**: IP address list in JSON format containing only IPv4 addresses.
+    - **ipv4-ranges.jsonl**: IP address list in newline-delimited JSON format containing only IPv4 addresses with `cidr` and `ip_version` fields.
     - **ipv4-ranges.txt**: IP address list in plain text format containing only IPv4 addresses.
 - **ipv6**: Subdirectory containing IPv6-specific IP address lists.
+    - **ipv6-ranges.csv**: IP address list in CSV format containing only IPv6 addresses with `cidr` and `ip_version` columns.
     - **ipv6-ranges.ipset**: IP address list in `ipset` format containing only IPv6 addresses.
     - **ipv6-ranges.json**: IP address list in JSON format containing only IPv6 addresses.
+    - **ipv6-ranges.jsonl**: IP address list in newline-delimited JSON format containing only IPv6 addresses with `cidr` and `ip_version` fields.
     - **ipv6-ranges.txt**: IP address list in plain text format containing only IPv6 addresses.
 
 ## How to Use
@@ -35,6 +41,7 @@ You can use any of the provided IP address lists based on your network infrastru
 
 - If you use iptables with ipset, you can use the `ip-ranges.ipset` or the appropriate IPv4/IPv6 specific `ipset` files.
 - For programmatic access, you may prefer the JSON format (`ip-ranges.json` or specific IPv4/IPv6 JSON files).
+- For BigQuery and similar ingestion flows, you can use the CSV or JSONL files with a simple `cidr` and `ip_version` schema.
 - The plain text format (`ip-ranges.txt` or specific IPv4/IPv6 text files) can be handy for manual configuration or quick reference.
 
 ## Updates and Maintenance
