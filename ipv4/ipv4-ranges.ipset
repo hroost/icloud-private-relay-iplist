@@ -1727,8 +1727,10 @@ add icloudrelayipv4 104.28.137.1
 add icloudrelayipv4 104.28.137.2/31
 add icloudrelayipv4 104.28.137.4/30
 add icloudrelayipv4 104.28.137.8/29
-add icloudrelayipv4 104.28.137.16/29
-add icloudrelayipv4 104.28.137.24/30
+add icloudrelayipv4 104.28.137.16/28
+add icloudrelayipv4 104.28.137.32/28
+add icloudrelayipv4 104.28.137.48/29
+add icloudrelayipv4 104.28.137.56
 add icloudrelayipv4 104.28.138.1
 add icloudrelayipv4 104.28.138.2/31
 add icloudrelayipv4 104.28.138.4/30
