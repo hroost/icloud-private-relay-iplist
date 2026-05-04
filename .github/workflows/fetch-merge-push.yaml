@@ -8,13 +8,23 @@ on:
       - .github/workflows/**
   schedule:
     - cron: 10 5 * * *
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-merge-update
+  cancel-in-progress: false
+
 jobs:
   main:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
-          fetch-depth: 0
+          fetch-depth: 1
       - uses: supplypike/setup-bin@8365380a806a88e7a0f0d07059b175ca2f5418d7 # v5.0.1
         with:
           uri: https://github.com/zhanhb/cidr-merger/releases/download/v1.1.3/cidr-merger-linux-amd64
@@ -30,7 +40,4 @@ jobs:
           git diff-index --quiet HEAD || git commit -a -m "[auto] upd ips"
       - name: Push changes
         if: github.ref == 'refs/heads/main'
-        uses: ad-m/github-push-action@4cc74773234f74829a8c21bc4d69dd4be9cfa599 # v1.1.0
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
+        run: git push origin HEAD:main
