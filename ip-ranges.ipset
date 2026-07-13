@@ -1731,6 +1731,7 @@ add icloudrelay 104.28.137.16/28
 add icloudrelay 104.28.137.32/27
 add icloudrelay 104.28.137.64/26
 add icloudrelay 104.28.137.128/28
+add icloudrelay 104.28.137.144
 add icloudrelay 104.28.138.1
 add icloudrelay 104.28.138.2/31
 add icloudrelay 104.28.138.4/30
@@ -12907,9 +12908,6 @@ add icloudrelay 2a02:26f7:fc14:4fc0::/61
 add icloudrelay 2a02:26f7:fc14:4fc8::/62
 add icloudrelay 2a02:26f7:fc14:4fcc::/63
 add icloudrelay 2a02:26f7:fc15:4000::/64
-add icloudrelay 2a04:4e41:3b::/59
-add icloudrelay 2a04:4e41:3b:20::/63
-add icloudrelay 2a04:4e41:3b:22::/64
 add icloudrelay 2a04:4e41:100::/52
 add icloudrelay 2a04:4e41:101::/48
 add icloudrelay 2a04:4e41:120::/50

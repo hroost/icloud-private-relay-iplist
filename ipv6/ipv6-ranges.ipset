@@ -9637,9 +9637,6 @@ add icloudrelayipv6 2a02:26f7:fc14:4fc0::/61
 add icloudrelayipv6 2a02:26f7:fc14:4fc8::/62
 add icloudrelayipv6 2a02:26f7:fc14:4fcc::/63
 add icloudrelayipv6 2a02:26f7:fc15:4000::/64
-add icloudrelayipv6 2a04:4e41:3b::/59
-add icloudrelayipv6 2a04:4e41:3b:20::/63
-add icloudrelayipv6 2a04:4e41:3b:22::/64
 add icloudrelayipv6 2a04:4e41:100::/52
 add icloudrelayipv6 2a04:4e41:101::/48
 add icloudrelayipv6 2a04:4e41:120::/50
